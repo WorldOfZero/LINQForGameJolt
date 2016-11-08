@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldOfZero.GameJolt", "src
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{366CDFB6-C547-4D5D-936B-6436DCEEFAEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldOfZero.GameJolt.Tests", "tests\WorldOfZero.GameJolt.Tests\WorldOfZero.GameJolt.Tests.csproj", "{24F7BB29-BA01-43A5-9CF2-B91767EE9BA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldOfZero.GameJolt.Tests", "tests\WorldOfZero.GameJolt.Tests\WorldOfZero.GameJolt.Tests.csproj", "{42433885-F3A6-4E63-8169-34C00BA740B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,16 +26,16 @@ Global
 		{FAD7F06D-155E-4F21-B82E-409F967DDEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAD7F06D-155E-4F21-B82E-409F967DDEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAD7F06D-155E-4F21-B82E-409F967DDEE9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{24F7BB29-BA01-43A5-9CF2-B91767EE9BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{24F7BB29-BA01-43A5-9CF2-B91767EE9BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{24F7BB29-BA01-43A5-9CF2-B91767EE9BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{24F7BB29-BA01-43A5-9CF2-B91767EE9BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42433885-F3A6-4E63-8169-34C00BA740B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42433885-F3A6-4E63-8169-34C00BA740B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42433885-F3A6-4E63-8169-34C00BA740B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42433885-F3A6-4E63-8169-34C00BA740B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FAD7F06D-155E-4F21-B82E-409F967DDEE9} = {767C6EEC-C159-4087-9763-940D7333B9F8}
-		{24F7BB29-BA01-43A5-9CF2-B91767EE9BA1} = {366CDFB6-C547-4D5D-936B-6436DCEEFAEB}
+		{42433885-F3A6-4E63-8169-34C00BA740B1} = {366CDFB6-C547-4D5D-936B-6436DCEEFAEB}
 	EndGlobalSection
 EndGlobal
