@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldOfZero.GameJolt", "src
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{366CDFB6-C547-4D5D-936B-6436DCEEFAEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldOfZero.GameJolt.Tests", "WorldOfZero.GameJolt.Tests\WorldOfZero.GameJolt.Tests.csproj", "{24F7BB29-BA01-43A5-9CF2-B91767EE9BA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldOfZero.GameJolt.Tests", "tests\WorldOfZero.GameJolt.Tests\WorldOfZero.GameJolt.Tests.csproj", "{24F7BB29-BA01-43A5-9CF2-B91767EE9BA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
