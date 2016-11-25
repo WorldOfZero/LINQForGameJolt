@@ -10,11 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldOfZero.GameJolt", "src\WorldOfZero.GameJolt\WorldOfZero.GameJolt.csproj", "{FAD7F06D-155E-4F21-B82E-409F967DDEE9}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{366CDFB6-C547-4D5D-936B-6436DCEEFAEB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldOfZero.GameJolt.Tests", "tests\WorldOfZero.GameJolt.Tests\WorldOfZero.GameJolt.Tests.csproj", "{42433885-F3A6-4E63-8169-34C00BA740B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldOfZero.GameJolt.Demo.Console", "WorldOfZero.GameJolt.Demo.Console\WorldOfZero.GameJolt.Demo.Console.csproj", "{A5F0FBB4-6273-43CE-8470-B5545CD65799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldOfZero.GameJolt.Net", "src\WorldOfZero.GameJolt.Net\WorldOfZero.GameJolt.Net.csproj", "{B0D5489F-2FE6-4E13-801B-83022317FB4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,20 +24,25 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FAD7F06D-155E-4F21-B82E-409F967DDEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAD7F06D-155E-4F21-B82E-409F967DDEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAD7F06D-155E-4F21-B82E-409F967DDEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAD7F06D-155E-4F21-B82E-409F967DDEE9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{42433885-F3A6-4E63-8169-34C00BA740B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{42433885-F3A6-4E63-8169-34C00BA740B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42433885-F3A6-4E63-8169-34C00BA740B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42433885-F3A6-4E63-8169-34C00BA740B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F0FBB4-6273-43CE-8470-B5545CD65799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F0FBB4-6273-43CE-8470-B5545CD65799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F0FBB4-6273-43CE-8470-B5545CD65799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F0FBB4-6273-43CE-8470-B5545CD65799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D5489F-2FE6-4E13-801B-83022317FB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D5489F-2FE6-4E13-801B-83022317FB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D5489F-2FE6-4E13-801B-83022317FB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D5489F-2FE6-4E13-801B-83022317FB4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{FAD7F06D-155E-4F21-B82E-409F967DDEE9} = {767C6EEC-C159-4087-9763-940D7333B9F8}
 		{42433885-F3A6-4E63-8169-34C00BA740B1} = {366CDFB6-C547-4D5D-936B-6436DCEEFAEB}
+		{A5F0FBB4-6273-43CE-8470-B5545CD65799} = {767C6EEC-C159-4087-9763-940D7333B9F8}
+		{B0D5489F-2FE6-4E13-801B-83022317FB4B} = {767C6EEC-C159-4087-9763-940D7333B9F8}
 	EndGlobalSection
 EndGlobal
