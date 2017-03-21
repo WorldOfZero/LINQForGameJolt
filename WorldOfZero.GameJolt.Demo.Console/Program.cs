@@ -11,10 +11,18 @@ namespace WorldOfZero.GameJolt.Demo.Console
     {
         static void Main(string[] args)
         {
-            ApplicationConfig appConfig = new ApplicationConfig();
-            GameJoltTimeProxy proxy = new GameJoltTimeProxy();
-            System.Console.WriteLine(proxy.GetTime(appConfig.GameId, appConfig.PrivateKey));
+            var appConfig = new ApplicationConfig();
+            var proxy = new GameJoltUserProxy();
+            var service = new ServiceProxy();
+            System.Console.WriteLine(GetUserInformation(appConfig, proxy, service));
             System.Console.ReadLine();
+        }
+
+        private static string GetUserInformation(ApplicationConfig appConfig, GameJoltUserProxy proxy, ServiceProxy service)
+        {
+            var task = service.Get(proxy.GetUsers(appConfig.GameId, appConfig.PrivateKey, "runewake2"));
+            task.Wait();
+            return task.Result;
         }
     }
 }
